@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="light_green">#94ED80</color>
+    <color name="green">#94ED80</color>
+    <color name="teal_700">#00796B</color>
+    <color name="red">#E91E63</color>
+
+    <color name="light_yellow">#FFF9C4</color> <!-- Soft yellow for 'Pending' -->
+    <color name="light_gray">#E0E0E0</color>   <!-- Light gray for dividers -->
+    <color name="gray">#757575</color>         <!-- Medium gray for text -->
+         <!-- Dark text -->
+    <color name="green_chip">#C8E6C9</color>   <!-- Soft green for 'Collected' -->
+    <color name="red_chip">#FFCDD2</color>     <!-- Soft red for 'Canceled' -->
+
+    <color name="amber_800">#FFB300</color>
+</resources>

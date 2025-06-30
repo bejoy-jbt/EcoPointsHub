@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722321144171",
+    "project_id": "ecopoints-nv1",
+    "storage_bucket": "ecopoints-nv1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722321144171:android:2a23e1f4538cf87411742e",
+        "android_client_info": {
+          "package_name": "com.example.eco_points_1a"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD1R5EgG_U5sR1jXSrqS09Qau-qZx0tQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

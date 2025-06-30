@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eco_background"> <!-- Optional background color -->
+
+    <!-- Full-Screen Logo -->
+    <ImageView
+        android:id="@+id/full_screen_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/icon_for_recycle_earn_and_sustain"
+        android:scaleType="fitCenter" /> <!-- Adjust image within screen -->
+
+</RelativeLayout>

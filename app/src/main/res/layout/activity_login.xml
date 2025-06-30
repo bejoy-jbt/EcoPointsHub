@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F4F6"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="28sp"
+        android:textColor="#1E88E5"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="#1E88E5"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:drawableLeft="@android:drawable/ic_dialog_email" />
+
+    <!-- Password Input with Visibility Toggle -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:backgroundTint="#1E88E5"
+            android:padding="12dp"
+            android:fontFamily="sans-serif"
+            android:drawableLeft="@android:drawable/ic_lock_lock"
+            android:paddingEnd="48dp" />
+
+        <ImageView
+            android:id="@+id/passwordToggle"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/visibility_off"
+            android:contentDescription="Show/Hide Password"
+            android:padding="4dp" />
+    </RelativeLayout>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="#1E88E5"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp" />
+
+    <!-- Signup Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alertTitle"
+        android:text="New User!"
+        android:textSize="19dp"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"/>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:backgroundTint="#C62828"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp" />
+
+</LinearLayout>

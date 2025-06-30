@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/popup_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Waste Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextWasteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Waste Name (Plastic, Paper, Metal, etc.)"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextWasteWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (Kg)"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextWasteDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:background="@drawable/input_background"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:inputType="textMultiLine"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_upload_image"
+        android:contentDescription="Upload Image"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Confirm"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white"
+            android:padding="8dp"
+            android:textSize="16sp"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:backgroundTint="@color/red"
+            android:textColor="@android:color/white"
+            android:padding="8dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>
